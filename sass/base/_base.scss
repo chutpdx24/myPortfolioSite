@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after{
+*::after {
     margin: 0px;
     padding: 0px;
     box-sizing: inherit;
@@ -8,8 +8,8 @@
 
 html {
     padding: 3rem;
-   // This defines what 1rem is
-   font-size: 62.5%; // 1rem = 10px
+    // This defines what 1rem is
+    font-size: 62.5%; // 1rem = 10px
 
     // @include respond (tab-land){ //width <1200px
     //     font-size: 56.25%; // 1rem = 9px 9/16=56.25%
@@ -24,20 +24,27 @@ html {
     body {
         font-family: 'Nunito', sans-serif;
         box-sizing: border-box;
-        
-        
+        background-color: $color-off-white;
+
+        // height: 100vh;
+        // background-image: linear-gradient(to right bottom, $color-tertiary, $color-secondary);
+        // background-size: cover;
+        // background-position: center;
+
+
         // @include respond (tab-port){ 
         //     padding: 0;
-        ul{
+        ul {
             list-style: none;
         }
 
         li {
             text-decoration: none;
         }
+
         a {
             text-decoration: none;
             color: black;
         }
-        }
+    }
 }
